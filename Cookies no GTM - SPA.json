@@ -1,0 +1,1320 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2022-06-09 21:46:52",
+    "containerVersion": {
+        "path": "accounts/4033510989/containers/9858120/versions/0",
+        "accountId": "4033510989",
+        "containerId": "9858120",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/4033510989/containers/9858120",
+            "accountId": "4033510989",
+            "containerId": "9858120",
+            "name": "Autoatendimento + Smart [Jornada Cliente]",
+            "publicId": "GTM-WFCPJS6",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1633525417344",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/4033510989/containers/9858120/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "tagId": "74",
+                "name": "TAG_GA_PA_All",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_PAGEVIEW"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{Configurações do Google Analytics - GA}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "dimension",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{Var_URLQuery_O}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1654810744119",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "130",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "tagId": "78",
+                "name": "TAG_GA4_CD_All",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "canais_digitais"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "canais_digitais"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{angular-path}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TAG_REFERENCE",
+                        "key": "measurementId",
+                        "value": "GA4"
+                    }
+                ],
+                "fingerprint": "1654810744116",
+                "firingTriggerId": [
+                    "85",
+                    "84",
+                    "83",
+                    "86",
+                    "82",
+                    "107",
+                    "118"
+                ],
+                "parentFolderId": "130",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "tagId": "80",
+                "name": "TAG_GA4_CANAIS_WHATSAPP",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "canais_digitais_url"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "whatsapp"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{angular-path}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TAG_REFERENCE",
+                        "key": "measurementId",
+                        "value": "GA4"
+                    }
+                ],
+                "fingerprint": "1654810744117",
+                "firingTriggerId": [
+                    "82"
+                ],
+                "parentFolderId": "130",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "tagId": "87",
+                "name": "TAG_GA4_CANAIS_FACEBOOK",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "canais_digitais_url"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "facebook"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{angular-path}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TAG_REFERENCE",
+                        "key": "measurementId",
+                        "value": "GA4"
+                    }
+                ],
+                "fingerprint": "1654810744114",
+                "firingTriggerId": [
+                    "83"
+                ],
+                "parentFolderId": "130",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "tagId": "88",
+                "name": "TAG_GA4_CANAIS_DialMyApp",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "canais_digitais_url"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "dial_my_app"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{angular-path}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TAG_REFERENCE",
+                        "key": "measurementId",
+                        "value": "GA4"
+                    }
+                ],
+                "fingerprint": "1654810744117",
+                "firingTriggerId": [
+                    "84"
+                ],
+                "parentFolderId": "130",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "tagId": "89",
+                "name": "TAG_GA4_CANAIS_CHAT",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "canais_digitais_url"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "chat"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{angular-path}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TAG_REFERENCE",
+                        "key": "measurementId",
+                        "value": "GA4"
+                    }
+                ],
+                "fingerprint": "1654810744118",
+                "firingTriggerId": [
+                    "86"
+                ],
+                "parentFolderId": "130",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "tagId": "90",
+                "name": "TAG_GA4_CANAIS_ABC",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "canais_digitais_url"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "apple_bussines_chat"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{angular-path}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TAG_REFERENCE",
+                        "key": "measurementId",
+                        "value": "GA4"
+                    }
+                ],
+                "fingerprint": "1654810744119",
+                "firingTriggerId": [
+                    "85"
+                ],
+                "parentFolderId": "130",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "tagId": "108",
+                "name": "TAG_GA4_CANAIS_TELEGRAM",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "canais_digitais_url"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "telegram"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{angular-path}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TAG_REFERENCE",
+                        "key": "measurementId",
+                        "value": "GA4"
+                    }
+                ],
+                "fingerprint": "1654810744115",
+                "firingTriggerId": [
+                    "107"
+                ],
+                "parentFolderId": "130",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "tagId": "119",
+                "name": "TAG_GA4_CANAIS_URANET",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "canais_digitais_url"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "uranet"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{angular-path}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TAG_REFERENCE",
+                        "key": "measurementId",
+                        "value": "GA4"
+                    }
+                ],
+                "fingerprint": "1654810744114",
+                "firingTriggerId": [
+                    "118"
+                ],
+                "parentFolderId": "130",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "tagId": "120",
+                "name": "TAG_Cookie_Autoatendimento",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>\n (function(){\n var cookieName = \"canais_digitais\"; // Name of your cookie\n var cookieValue = \"true\"; // Value of your cookie\n var expirationTime = 2592000; // One month in seconds\n expirationTime = expirationTime * 1000; // Converts expirationtime to milliseconds\n var date = new Date(); \n var dateTimeNow = date.getTime(); \n\n date.setTime(dateTimeNow + expirationTime); // Sets expiration time (Time now + one month)\n var date = date.toUTCString(); // Converts milliseconds to UTC time string\n document.cookie = cookieName+\"=\"+cookieValue+\"; SameSite=None; Secure; expires=\"+date+\"; path=/; domain=.\" + location.hostname.replace(/^www\\./i, \"\"); // Sets cookie for all subdomains\n})();\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1654810744117",
+                "firingTriggerId": [
+                    "85",
+                    "86",
+                    "84",
+                    "83",
+                    "107",
+                    "118",
+                    "82"
+                ],
+                "parentFolderId": "130",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "tagId": "124",
+                "name": "Acao_Pagar_Seguro",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "clique_pagar_boleto"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "URL"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{angular-path}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TAG_REFERENCE",
+                        "key": "measurementId",
+                        "value": "GA4"
+                    }
+                ],
+                "fingerprint": "1654810744115",
+                "firingTriggerId": [
+                    "123",
+                    "125"
+                ],
+                "parentFolderId": "130",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "tagId": "126",
+                "name": "Clique_Pagar_Seguro",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "clique_pagar_seguro"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "clique_pagar_seguro"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{angular-path}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TAG_REFERENCE",
+                        "key": "measurementId",
+                        "value": "GA4"
+                    }
+                ],
+                "fingerprint": "1654810744116",
+                "firingTriggerId": [
+                    "123",
+                    "125"
+                ],
+                "parentFolderId": "130",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "tagId": "127",
+                "name": "TAG_Cookie_Autoatendimento_url",
+                "type": "html",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "html",
+                        "value": "<script>\n (function(){\n var cookieName = \"canais_digitais_url\"; // Name of your cookie\n var cookieValue = \"{{parametro_o=}}\"; // Value of your cookie\n var expirationTime = 2592000; // One month in seconds\n expirationTime = expirationTime * 1000; // Converts expirationtime to milliseconds\n var date = new Date(); \n var dateTimeNow = date.getTime(); \n\n date.setTime(dateTimeNow + expirationTime); // Sets expiration time (Time now + one month)\n var date = date.toUTCString(); // Converts milliseconds to UTC time string\n document.cookie = cookieName+\"=\"+cookieValue+\"; SameSite=None; Secure; expires=\"+date+\"; path=/; domain=.\" + location.hostname.replace(/^www\\./i, \"\"); // Sets cookie for all subdomains\n})();\n</script>"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "supportDocumentWrite",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1654810744111",
+                "firingTriggerId": [
+                    "85",
+                    "86",
+                    "84",
+                    "83",
+                    "107",
+                    "118",
+                    "82"
+                ],
+                "parentFolderId": "130",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "tagId": "129",
+                "name": "Clique_Pagar_Seguro_url",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "clique_pagar_seguro_url"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "clique_pagar_seguro_url"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{cookie_canais_digitais_url}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TAG_REFERENCE",
+                        "key": "measurementId",
+                        "value": "GA4"
+                    }
+                ],
+                "fingerprint": "1654810744115",
+                "firingTriggerId": [
+                    "123",
+                    "125"
+                ],
+                "parentFolderId": "130",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "triggerId": "68",
+                "name": "Acionador O=W",
+                "type": "PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page Path}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "o=w"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1654810820074",
+                "parentFolderId": "130"
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "triggerId": "82",
+                "name": "DOM_o=w",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{parametro_o=}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "o=w"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1654810820073",
+                "parentFolderId": "130"
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "triggerId": "83",
+                "name": "DOM_o=f",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{parametro_o=}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "o=f"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1654810820072",
+                "parentFolderId": "130"
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "triggerId": "84",
+                "name": "DOM_o=d",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{parametro_o=}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "o=d"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1654810820073",
+                "parentFolderId": "130"
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "triggerId": "85",
+                "name": "DOM_o=abc",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{parametro_o=}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "o=abc"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1654810820072",
+                "parentFolderId": "130"
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "triggerId": "86",
+                "name": "DOM_o=chat",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{parametro_o=}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "o=chat"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1654810820071",
+                "parentFolderId": "130"
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "triggerId": "99",
+                "name": "TST - AUTO_VIEW",
+                "type": "PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{parametro_o=}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "/segunda-via/pagamentos/auto/view"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1654810820071",
+                "parentFolderId": "130"
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "triggerId": "102",
+                "name": "DL_HISTORICO",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "gtm.historyChange-v2"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{angular-path}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "/segunda-via/pagamentos/auto/view"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cookie_canais_digitais}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1654810820067",
+                "parentFolderId": "130"
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "triggerId": "105",
+                "name": "EVT_FORM_ASSISTENCIA",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "gtm.elementVisibility"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{angular-path}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "/assistencia/auto"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1654810820070",
+                "parentFolderId": "130"
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "triggerId": "107",
+                "name": "DOM_o=tele",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{parametro_o=}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "o=tele"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1654810820070",
+                "parentFolderId": "130"
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "triggerId": "118",
+                "name": "DOM_o=u",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{parametro_o=}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "o=u"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1654810820069",
+                "parentFolderId": "130"
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "triggerId": "122",
+                "name": "Acionamento Cookie",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cookie_canais_digitais}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1654810820068",
+                "parentFolderId": "130"
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "triggerId": "123",
+                "name": "Clique_Pagar_Seguro_Alterar_Pagamento",
+                "type": "CLICK",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Text}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "ALTERAR FORMA DE PAGAMENTO"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cookie_canais_digitais}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1654810820069",
+                "parentFolderId": "130"
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "triggerId": "125",
+                "name": "Clique_Pagar_Seguro_Pagar_Agora",
+                "type": "CLICK",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Text}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "PAGAR AGORA"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{cookie_canais_digitais}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1654810820069",
+                "parentFolderId": "130"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "variableId": "53",
+                "name": "click-info",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n  var clickElement = {{Click Element}};\n  var elementInfo = clickElement.getAttribute('data-history-url') || clickElement.innerText;\n\n  return elementInfo.toLowerCase().replace(/\\s+/g, '-');\n}"
+                    }
+                ],
+                "fingerprint": "1615993044931",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "variableId": "58",
+                "name": "angular-path",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n  return window.location.hash.substr(1) || window.location.pathname;\n}"
+                    }
+                ],
+                "fingerprint": "1654810878302",
+                "parentFolderId": "130",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "variableId": "81",
+                "name": "parametro_o=",
+                "type": "u",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "URL"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "customUrlSource",
+                        "value": "{{angular-path}}"
+                    }
+                ],
+                "fingerprint": "1654810878301",
+                "parentFolderId": "130",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "variableId": "101",
+                "name": "DLV",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "gtm.newUrlFragment"
+                    }
+                ],
+                "fingerprint": "1654810878303",
+                "parentFolderId": "130",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "variableId": "121",
+                "name": "cookie_canais_digitais",
+                "type": "k",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decodeCookie",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "canais_digitais"
+                    }
+                ],
+                "fingerprint": "1654810878302",
+                "parentFolderId": "130",
+                "formatValue": {}
+            },
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "variableId": "128",
+                "name": "cookie_canais_digitais_url",
+                "type": "k",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "decodeCookie",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "canais_digitais_url"
+                    }
+                ],
+                "fingerprint": "1654810878300",
+                "parentFolderId": "130",
+                "formatValue": {}
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "4033510989",
+                "containerId": "9858120",
+                "folderId": "130",
+                "name": "Ações de Acompanhamento nos Canais Digitais",
+                "fingerprint": "1654810692302"
+            }
+        ],
+        "fingerprint": "1654811212153",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/4033510989/containers/9858120/versions/0?apiLink=version"
+    }
+}
